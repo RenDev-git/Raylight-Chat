@@ -5,7 +5,7 @@
   }
   
   html, body {
-    background: #eee;
+    background: rgb(39, 39, 39);
     width: 100%;
     height: 100%;
     margin: 0;
@@ -33,7 +33,7 @@
     content: '';
     width: 100%;
     height: calc(100vh - 165px);
-    background: white;
+    background: rgb(66, 66, 66);
     padding: 5px 10px;
   }
   
@@ -44,7 +44,7 @@
   input, button {
     width: 100%;
     font: inherit;
-    background: #fff;
+    background: rgb(80, 80, 80);
     border: none;
     margin-top: 10px;
     padding: 5px 10px;
@@ -52,7 +52,7 @@
   
   button:hover {
     cursor: pointer;
-    background: #ddd;
+    background: rgb(97, 97, 97);
   }
   
   @media all and (min-width: 500px) {
